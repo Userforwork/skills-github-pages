@@ -1,0 +1,19 @@
+body{
+    background-color:steelblue;
+}
+
+center{
+    margin-top: 20px;
+    font-size: 100px;
+    color: floralwhite;
+}
+
+div{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 600px;
+    margin-right: 700px;
+    color: white;
+    background-color: darkblue;
+    height: 200px;
+}

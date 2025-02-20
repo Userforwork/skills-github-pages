@@ -1,0 +1,132 @@
+body{
+    background-color: steelblue;
+}
+
+
+center{
+    margin-top: 20px;
+    font-size: 100px;
+    color: floralwhite;
+}
+
+button{
+    margin-left: 260px;
+    width: 160px;
+    height: 50px;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.fueddy{
+    margin-left: 700px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.promo{
+    background-color: darkslategrey;
+    color: darkred;
+    font-size: 40px;
+}
+
+.container{
+
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: center;
+    gap: 10px;
+}
+
+.aviso{
+    color: darkred;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background-color: darkslateblue;
+    }
+    
+    center{
+        margin-top: 10px;
+        font-size: 50px;
+        color: floralwhite;
+    }
+
+    .fueddy{
+        margin-left: 150px;
+        width: 100px;
+        height: 100px;
+    }
+
+    button{
+        margin-left: 150px;
+        width: 80px;
+        height: 25px;
+        
+    }
+    
+    h1{
+        text-align: center;
+        color: white;
+    }
+    
+    p{
+        text-align: center;
+        color: white;
+        font-size: 22px;
+    }
+    
+    .promo{
+        background-color: darkslategrey;
+        color: darkred;
+        font-size: 40px;
+    }
+    
+    .container{
+    
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        align-content: center;
+        gap: 10px;
+    }
+    
+    .aviso{
+        color: darkred;
+        font-size: 30px;
+    }
+
+    .img1{
+        margin-left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .img2{
+        margin-left: 130px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .img3{
+        margin-left: 80px;
+        width: 100px;
+        height: 100px;
+    }
+}
